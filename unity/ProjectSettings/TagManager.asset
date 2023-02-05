@@ -8,6 +8,7 @@ TagManager:
   - PatrolArea
   - Enemy
   - Spikes
+  - DeadZone
   layers:
   - Default
   - TransparentFX
