@@ -77,7 +77,7 @@ public class HeroScript : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.gameObject.tag == "Enemy" || collision.gameObject.tag == "Spikes")
+        if (collision.gameObject.tag == "Enemy" || collision.gameObject.tag == "Spikes" || collision.gameObject.tag == "DeadZone")
         {
             alive = false;   
         }
