@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: eb359e4e897566e4580dda02abdd95c9
+guid: 2ca33cd68245d1e4c8c00d9f300cafe8
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -117,43 +117,43 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: modi-512-sprite-idle_0
+      name: modi-attacks-axe-sprite 1_0
       rect:
         serializedVersion: 2
         x: 48
         y: 0
-        width: 256
+        width: 400
         height: 448
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 40bb117954a7ced49afcd78d60dc0813
-      internalID: -344579198
+      spriteID: 50c9af4841ad0e44eaa0ae281dfa0f43
+      internalID: -909872222
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: modi-512-sprite-idle_1
+      name: modi-attacks-axe-sprite 1_1
       rect:
         serializedVersion: 2
         x: 560
         y: 0
-        width: 256
-        height: 432
+        width: 368
+        height: 448
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ff8ab86b6dc257e47ab705c5294cfeb2
-      internalID: -1924274916
+      spriteID: 66ec5275e60694e4ba70c9b250698978
+      internalID: 542915178
       vertices: []
       indices: 
       edges: []
@@ -169,8 +169,8 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      modi-512-sprite-idle_0: -344579198
-      modi-512-sprite-idle_1: -1924274916
+      modi-attacks-axe-sprite 1_0: -909872222
+      modi-attacks-axe-sprite 1_1: 542915178
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
