@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using UnityEngine.SceneManagement;
 using UnityEngine;
 
 public class HeroScript : MonoBehaviour
@@ -28,6 +29,10 @@ public class HeroScript : MonoBehaviour
 
     void Update()
     {
+        if (Input.GetKey("r"))
+        {
+            SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+        }
         if (alive)
         {
             moveHorizontal = Input.GetAxisRaw("Horizontal");
