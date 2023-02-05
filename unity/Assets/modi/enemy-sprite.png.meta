@@ -121,18 +121,18 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 112
-        y: 32
+        y: 544
         width: 288
         height: 416
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c6c3e70de47343d4ea6a536b840905cf
-      internalID: -69426532
+      spriteID: 6fddbf6af68ca55409ba9d4d995879f3
+      internalID: 1866197360
       vertices: []
       indices: 
       edges: []
@@ -142,18 +142,18 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 624
-        y: 32
+        y: 526
         width: 288
         height: 416
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a05eceb7f3f0ac24a842518dc09000ba
-      internalID: 901097211
+      spriteID: eb81fa281e99bb7468d7aeeda0f6e461
+      internalID: -523519885
       vertices: []
       indices: 
       edges: []
@@ -162,19 +162,19 @@ TextureImporter:
       name: enemy-sprite_2
       rect:
         serializedVersion: 2
-        x: 1136
-        y: 32
+        x: 112
+        y: 30
         width: 288
         height: 416
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b2d1970ad2131034aa14e0098e448883
-      internalID: -1395881832
+      spriteID: 80f1ee0bd9b82554ab156cab8390dba7
+      internalID: 16204663
       vertices: []
       indices: 
       edges: []
@@ -190,10 +190,9 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      enemy-sprite_3: 2026073062
-      enemy-sprite_2: -1395881832
-      enemy-sprite_0: -69426532
-      enemy-sprite_1: 901097211
+      enemy-sprite_2: 16204663
+      enemy-sprite_0: 1866197360
+      enemy-sprite_1: -523519885
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
