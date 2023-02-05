@@ -7,7 +7,7 @@ public class HeroScript : MonoBehaviour
     private float moveHorizontal;
     private float moveVertical;
     private float moveSpeed = 16f;
-    private float jumpingPower = 30f;
+    private float jumpingPower = 47f;
     private bool isFacingRight = true;
     private bool alive;
     Color deadColor;
@@ -34,12 +34,12 @@ public class HeroScript : MonoBehaviour
             moveVertical = Input.GetAxisRaw("Vertical");
 
 
-            if (Input.GetButtonDown("Jump") && IsGrounded())
+            if ((Input.GetKeyDown(KeyCode.UpArrow) && IsGrounded()) || (Input.GetButtonDown("Jump") && IsGrounded()))
             {
                 rb.velocity = new Vector2(rb.velocity.x, jumpingPower);
             }
 
-            if (Input.GetButtonUp("Jump") && rb.velocity.y > 0f)
+            if ((Input.GetKeyUp(KeyCode.UpArrow) && rb.velocity.y > 0f) || (Input.GetButtonUp("Jump") && rb.velocity.y > 0f))
             {
                 rb.velocity = new Vector2(rb.velocity.x, rb.velocity.y * 0.5f);
             }
